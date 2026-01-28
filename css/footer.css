@@ -70,6 +70,12 @@
   
   
 }
+#curriculo-baixar{
+  font-size: 25px;
+  text-decoration: none;
+  
+  
+}
 #curriculo-baixar:hover{
    text-decoration: underline;
   text-decoration-thickness: 1px;
