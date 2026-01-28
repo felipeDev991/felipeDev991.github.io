@@ -47,3 +47,32 @@
   }
 }
 
+@media(max-width: 450px){
+  .footer-texto {
+  font-size: 0.875rem;
+  line-height: 1.33;
+  color: #cccccc;
+  display: flex;
+  flex-wrap: wrap;
+  word-break: 5ch;
+}
+ .footer-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
+#curriculo-baixar a{
+  font-size: 25px;
+  text-decoration: none;
+  
+  
+}
+#curriculo-baixar:hover{
+   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  
+}
